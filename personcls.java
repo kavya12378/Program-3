@@ -5,13 +5,6 @@ import java.time.format.DateTimeFormatter;
 class Person {
     protected String name;
 
-    public Person(String name) {
-        this.name = name;
-    }
-
-    public void displayPersonName() {
-        System.out.println("Name: " + name);
-    }
 
     public void displayAge(String dob) {
         LocalDate birthDate = parseDate(dob);
