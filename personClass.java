@@ -55,8 +55,8 @@ public class personClass {
        
         String name = "kavya";
         String dob = "2005-06-24"; 
-        int empId = 101;
-        double salary = 55000.75;
+        int empId = 142;
+        double salary = 50000.00;
 
         Employee emp = new Employee(name, empId, salary);
         emp.displayEmployeeDetails();
